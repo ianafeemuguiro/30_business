@@ -1,0 +1,257 @@
+
+/*MI CSS*/
+/*Header*/
+/*Bloque 1 Navegador*/
+
+.navbar{ 
+	background-color: transparent;
+}
+
+header{
+	background-image: url("../image/large.jpg") ; 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 500px;
+}
+
+.bg-blue-1{
+	background-color:black;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 500px;
+	opacity: 0.5;
+}
+
+.img-user{
+	width: 80%;
+	z-index: 100;
+}
+
+h1{
+	color: white;
+	margin-top:15%;
+	table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.btn-info{
+	margin-top: 7%;
+}
+
+.bg-blue-text{
+	background-color: #0B3861;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 126px;
+	opacity: 0.8;
+	margin-top: 8.3%;
+}
+
+h3{
+	color:white;
+	margin-left: 50%;
+	margin-top: 6%;
+}
+h5{
+	color:white;
+	margin-left: 50%;
+}
+
+/*Termina Bloque 1*/
+
+/*Nav-bar Fuente*/
+
+nav.navbar{ /*Fondo del nav bar*/ 
+	background-color: transparent; border: 0;
+} 
+
+.navbar-default .navbar-brand {/*Color del titulo*/ 
+	color: white;
+} 
+
+.navbar-default .navbar-nav > li > a { /*Color de links*/ 
+	color: white; 
+} 
+
+.navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/ 
+.navbar-default .navbar-nav > li > a:focus { 
+	color: gray; 
+} 
+
+.navbar-default .navbar-nav > 
+.active > a, /*Fondo de links puntero sobre ellos*/ 
+.navbar-default .navbar-nav > 
+.active > a:hover, 
+.navbar-default .navbar-nav > 
+.active > a:focus {
+ color: black; background-color: none;
+}
+
+/*Termina fuente Nav-bar*/
+
+/*Bloque 2 Nuestro Servicios*/
+
+.text-service{
+	color:#0174DF;
+	font-size: 30px;
+	margin-top: 6%;
+}
+
+.fondor{
+    width: 30%;
+    border: blue solid  0 1px 1px 0 ;
+    border-radius: 360px;
+    box-shadow: 2px 2px 2px 2px;
+    padding: 9%;
+    margin-left: 35%;
+    margin-bottom: 8%;
+    margin-top:10%; 
+    color: #E6E6E6;
+}
+
+.size-icon{
+	font-size: 40px;
+	color:#0174DF;
+}
+
+.title-circle{
+	font-size:20px;
+	color:#0174DF;
+}
+
+/*Termina Bloque 2*/
+
+/*Separador*/
+
+.img-separador{
+	margin-top: 5%;
+}
+
+/*Bloques 3, 4, 5 (Use las mismas clases para todos*/ 
+
+.img-user-testing{
+	width: 50%;
+}
+
+.img-arrow{
+	margin-left: 40%;
+}
+
+.bg-img{
+	background-image: url("../image/sec-2.jpg") ; 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 500px;
+}
+
+.text-blue{
+	color:#0174DF;
+}
+
+.bg-circle{
+    width: 80%;
+    border-radius: 200px;
+    box-shadow: 0px 0px 0px 0px;
+    padding: 20%;
+    margin-left: -50%;
+    margin-top:60%; 
+    color: #58ACFA;
+    background-color: #58ACFA;
+}
+
+.size-icons{
+	font-size: 20px;
+	color: white;
+}
+
+.img-rombo{
+	width: 100%;
+	margin-left: -60%;
+	margin-top: 160%;
+}
+
+.text-control{
+	margin-left: -15%;
+}
+
+/*Termina Bloques 3,4,5*/
+
+/*Bloque 6*/
+
+.bg-blue-3{
+	background-color: #0174DF;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 126px;
+	margin-top: 6.5%;
+}
+
+footer{
+	background-color: #0B173B;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 126px;
+}
+
+.sm-control{
+	margin-left: 40%;
+	margin-top: 2%;
+}
+
+/*Animación 1*/
+
+.containerEx3 {
+	margin: 0 auto;
+}
+
+.ex3 img {
+	width: 100%;
+	margin: 20px;
+	border: 5px solid #eee;
+	-webkit-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-moz-box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	box-shadow: 4px 4px 4px rgba(0,0,0,0.2);
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+}
+	.ex3 img:hover {
+	-webkit-transform: rotate(-7deg);
+	-moz-transform: rotate(-7deg);
+	-ms-transform: rotate(-7deg);
+	transform: rotate(-7deg);
+}
+
+
+/*Animación 2*/
+
+.loading,.loading>td,.loading>th,.nav li.loading.active>a,.pagination li.loading,.pagination>li.active.loading>a,.pager>li.loading>a{
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+    background-size: 40px 40px;
+	animation: 2s linear 0s normal none infinite progress-bar-stripes;
+	-webkit-animation: progress-bar-stripes 2s linear infinite;
+}
+.btn.btn-default.loading,input[type="text"].loading,select.loading,textarea.loading,.well.loading,.list-group-item.loading,.pagination>li.active.loading>a,.pager>li.loading>a{
+background-image: linear-gradient(45deg, rgba(235, 235, 235, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(235, 235, 235, 0.15) 50%, rgba(235, 235, 235, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+}
+/*CONTACT*/
+
+#bg-contact{
+	background-image: url("../image/large.jpg") ; 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 500px;
+}
+
+/*Invisible and visible*/
+
+.show {
+	display: block !important;
+}
+.hidden {
+	display: none !important;
+	visibility: hidden !important;
+}
+.invisible {
+	visibility: hidden;
+}
